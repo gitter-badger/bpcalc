@@ -3,7 +3,8 @@ Whirlwind breakpoint calculator for Diablo 3
 
 ## Overview
 bpcalc is a command-line utility for calculating Whirlwind and Dust Devil breakpoints for Barbarians in Diablo 3. The program will also show the required `increased attack speed` to reach the previous or next breakpoint.
-Read: it shows wasted IAS.
+
+Read: it shows wasted IAS as well as how much you need to reach the next breakpoint.
 
 `Note:` binary packages were built for Windows 10 x64 only. You will need to download and install the Visual C++ 2015 runtime located here in order to run bpcalc: [http://www.microsoft.com/en-us/download/details.aspx?id=48145](http://www.microsoft.com/en-us/download/details.aspx?id=48145)
 
