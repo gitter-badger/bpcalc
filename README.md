@@ -21,19 +21,19 @@ Using `bpcalc` is really easy, simply type `bpcalc [options]` in a command promp
     -wep         <number>     Weapon speed
     -wotb                     Wrath of the Berserker's 25% IAS bonus
 ```
-An example might look something like this, assuming WoTB is up and you have BK weapons with 7% native IAS on them and 30% IAS from gear: `bpcalc -bk -ias 30 -wep 3.9` which would output the following:
+An example might look something like this, assuming WoTB is up and you have BK weapons with 7% native IAS on them and 30% IAS from gear: `bpcalc -bk -ias 30 -wep 1.39` which would output the following:
 ```
 Weapon speed            IAS                   APS
 ------------            ---                   ---
-3.90                    30.0%                 6.59
+1.39                    30.0%                 2.35
 
 Ticks per second        IAS to previous BP    IAS to next BP
 ----------------        ------------------    --------------
-20.00                   -1.5% (-31.5%)        31.5% (+1.5%)
+7.50                    22.9% (-7.1%)         38.4% (+8.4%)
 
 Tornadoes per second    IAS to previous BP    IAS to next BP
 --------------------    ------------------    --------------
-15.00                   18.2% (-11.8%)        47.9% (+17.9%)
+5.00                    27.6% (-2.4%)         38.4% (+8.4%)
 ```
 
 ## Building from source
