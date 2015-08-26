@@ -1,0 +1,7 @@
+bpcalc - Whirlwind Breakpoint Calculator
+Copyright(C) 2015 Snailsoft <https://github.com/snailsoft/bpcalc/>
+
+------------------------------------------------------------------------------
+
+Version 1.0.0
+- Initial release
