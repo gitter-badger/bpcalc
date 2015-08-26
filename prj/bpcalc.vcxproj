@@ -21,6 +21,12 @@
   <ItemGroup>
     <ResourceCompile Include="..\src\bpcalc.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\changelog.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4D3340D3-B627-4AC3-B759-C58E7A926687}</ProjectGuid>
     <RootNamespace>bpcalc</RootNamespace>
@@ -58,6 +64,7 @@
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>4458</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <OptimizeReferences>true</OptimizeReferences>
@@ -67,6 +74,7 @@
       <AdditionalDependencies>
       </AdditionalDependencies>
       <GenerateDebugInformation>No</GenerateDebugInformation>
+      <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <PostBuildEvent>
       <Command>

@@ -101,8 +101,8 @@ int main(int argc, char *argv[])
 
 		printf("%.02f\t                %.01f%%\t              %.02f\n\n", ww.get_weapon_speed(), ww.get_increased_attack_speed() * 100.0f, ww.get_attacks_per_second());
 		
-		std::cout << "WW ticks per second     IAS to previous BP    IAS to next BP" << std::endl;
-		std::cout << "-------------------     ------------------    --------------" << std::endl;
+		std::cout << "Ticks per second        IAS to previous BP    IAS to next BP" << std::endl;
+		std::cout << "----------------        ------------------    --------------" << std::endl;
 		
 		printf("%.02f\t                %.01f%% (-%.01f%%)\t      %.01f%% (+%.01f%%)\n\n", ww.get_ticks_per_second(20.0f), ww.get_breakpoint(20.0f) * 100.0f, (ww.get_increased_attack_speed() - ww.get_breakpoint(20.0f)) * 100.0f, ww.get_breakpoint(20.0f, true) * 100.0f, (ww.get_breakpoint(20.0f, true) - ww.get_increased_attack_speed()) * 100.0f);
 
